@@ -1174,6 +1174,12 @@ landscape:
             logo: north_carolina_department_of_health_and_human_services.svg
             crunchbase: https://www.crunchbase.com/organization/nc-department-of-health-and-human-services
           - item:
+            name: One Fact Foundation
+            homepage_url: https://onefact.org/
+            logo: one_fact_foundation.svg
+            organization:
+              name: One Fact Foundation
+          - item:
             name: Onom Foundation
             homepage_url: https://onomfoundation.org/
             logo: onom_foundation.svg
@@ -1196,6 +1202,12 @@ landscape:
             homepage_url: https://resolvetosavelives.org/
             logo: resolve_to_save_lives.svg
             crunchbase: https://www.crunchbase.com/organization/resolve-to-save-lives
+          - item:
+            name: SORMAS Foundation gGmbH
+            homepage_url: https://sormas.org/
+            logo: sormas_foundation_ggmbh.svg
+            organization:
+              name: SORMAS Foundation gGmbH
           - item:
             name: U.S. Digital Response
             description: >-
