@@ -28,14 +28,14 @@ landscape:
         items:
           - item:
             name: RareCamp
-            description: >-
-              RareCamp is a software platform to develop treatments for monogenic rare diseases.
+            description: RareCamp is a software platform to develop treatments for monogenic rare diseases.
             homepage_url: https://rarecamp.org/
             project: foundationproject
             repo_url: https://github.com/RareCamp/RareCamp
             project_org: https://github.com/RareCamp
             logo: rarecamp_logo_lfph.svg
-            organization: { name: 'RareCamp' }
+            organization:
+              name: RareCamp
             extra:
               accepted: '2022-09-04'
   - category:

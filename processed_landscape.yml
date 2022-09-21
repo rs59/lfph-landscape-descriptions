@@ -117,89 +117,75 @@ landscape:
               percentage: null
             twitter_data:
               latest_tweet_date: 2022-09-15T15:51:29.000Z
+  - category:
+    name: Treatments and Therapies
+    subcategories:
+      - subcategory:
+        name: Rare Diseases
+        items:
           - item:
-            name: MedCreds
-            description: >-
-              MedCreds allows medical authorities to directly issue test and vaccination results in the form of verifiable credentials to individuals in a
-              digital wallet.
-            homepage_url: https://www.proofmarket.io/medcreds
+            name: RareCamp
+            description: RareCamp is a software platform to develop treatments for monogenic rare diseases.
+            homepage_url: https://rarecamp.org/
             project: foundationproject
-            repo_url: https://github.com/LFPH-Medcreds/medcreds-api
-            project_org: https://github.com/LFPH-Medcreds
-            logo: medcreds.svg
-            twitter: http://www.twitter.com/medcreds
-            crunchbase: https://www.crunchbase.com/organization/lf-public-health
+            repo_url: https://github.com/RareCamp/RareCamp
+            project_org: https://github.com/RareCamp
+            logo: rarecamp_logo_lfph.svg
+            organization:
+              name: RareCamp
             extra:
-              accepted: '2021-04-29'
+              accepted: '2022-09-04'
             crunchbase_data:
-              name: LF Public Health
-              description: An open source software foundation focused on the needs of public health authorities
-              num_employees_min: 11
-              num_employees_max: 50
-              homepage: http://www.lfph.io
-              city: San Francisco
-              region: California
-              country: United States
-              twitter: https://twitter.com/lfpubhealth
-              linkedin: https://www.linkedin.com/company/lfph
-              acquisitions: []
-              parents:
-                - https://www.crunchbase.com/organization/linux-foundation
-              stockExchange: null
-              company_type: Non Profit
-              industries:
-                - Software
+              name: RareCamp
+              parents: []
             github_data:
-              description: Open Source project for MedCreds Open Source under the jurisdiction of the Linux Foundation Public Health initiative (LFPH)
-              contributors_count: 4
-              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0
-              stars: 3
+              description: ''
+              contributors_count: 14
+              contributions: 0;0;0;0;0;0;0;0;0;0;0;0;1;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;0;2;0;0;0;0;0;0;0;0
+              stars: 48
               languages:
-                - name: JavaScript
-                  value: 342252
-                  color: '#f1e05a'
-                - name: Vue
-                  value: 231005
-                  color: '#2c3e50'
-                - name: HTML
-                  value: 6741
-                  color: '#e34c26'
                 - name: TypeScript
-                  value: 6051
+                  value: 98375
                   color: '#2b7489'
-                - name: Stylus
-                  value: 4874
-                - name: Dockerfile
-                  value: 1374
-                  color: '#384d54'
-                - name: Shell
-                  value: 381
-                  color: '#89e051'
+                - name: Less
+                  value: 51324
                 - name: SCSS
-                  value: 138
-              latest_commit_link: /LFPH-Medcreds/medcreds-api/commit/a839e1e332aeae43ad039b88db73d6baa23f54da
-              latest_commit_date: '2021-05-28T20:17:16Z'
+                  value: 51035
+                - name: JavaScript
+                  value: 48172
+                  color: '#f1e05a'
+                - name: HTML
+                  value: 10579
+                  color: '#e34c26'
+                - name: CSS
+                  value: 3803
+                  color: '#563d7c'
+                - name: Shell
+                  value: 191
+                  color: '#89e051'
+              latest_commit_link: /RareCamp/RareCamp/commit/97e68985cbd991ab3d010854d8b78769a06bbe19
+              latest_commit_date: '2021-12-15T21:21:24Z'
               firstWeek: 2021-09-26Z
               license: Apache License 2.0
-              contributors_link: https://github.com/LFPH-Medcreds/medcreds-api/graphs/contributors
+              contributors_link: https://github.com/RareCamp/RareCamp/graphs/contributors
             repos:
-              - url: https://github.com/LFPH-Medcreds/medcreds-api
+              - url: https://github.com/RareCamp/RareCamp
+                stars: 45
+              - url: https://github.com/RareCamp/rarecamp.github.io
                 stars: 2
-              - url: https://github.com/LFPH-Medcreds/medcreds-app
+              - url: https://github.com/RareCamp/anonymizer
                 stars: 1
-              - url: https://github.com/LFPH-Medcreds/medcreds.github.io
+              - url: https://github.com/RareCamp/anonymizer-ui
                 stars: 0
             github_start_commit_data:
-              start_commit_link: /LFPH-Medcreds/medcreds-api/commit/fdc34266239ecc1523af1850c8e9a9fbd96b1fd9
-              start_date: '2021-05-19T18:41:31Z'
+              start_commit_link: /RareCamp/RareCamp/commit/64e6245e46008ba975d7031faf778274c7c72bd6
+              start_date: '2020-12-05T23:10:39Z'
             image_data:
-              fileName: med-creds.svg
-              hash: 3atop2VnVGvCwLOJyyauCSOtZ3V6IxvbffFNj1px72s=
+              fileName: rare-camp.svg
+              hash: H/ktJ0CaXOzNZhJbd3gfu+E5XVqZHtbeak97VsqeCow=
             best_practice_data:
               badge: false
               percentage: null
-            twitter_data:
-              latest_tweet_date: 2021-05-19T04:08:09.000Z
   - category:
     name: PHA-Deployed App
     subcategories:
@@ -8742,7 +8728,6 @@ landscape:
             name: International Business Machines Corporation
             homepage_url: https://ibm.com/
             logo: international_business_machines_corporation.svg
-            twitter: https://twitter.com/IBM
             crunchbase: https://www.crunchbase.com/organization/ibm
             crunchbase_data:
               name: IBM
@@ -9228,7 +9213,6 @@ landscape:
             name: Affinidi Pte Ltd
             homepage_url: https://affinidi.com/
             logo: affinidi_pte_ltd.svg
-            twitter: https://twitter.com/affinidi
             crunchbase: https://www.crunchbase.com/organization/affinidi
             crunchbase_data:
               name: Affinidi
@@ -9261,7 +9245,6 @@ landscape:
             name: Dimagi Inc
             homepage_url: https://dimagi.com/
             logo: dimagi_inc.svg
-            twitter: https://twitter.com/dimagi
             crunchbase: https://www.crunchbase.com/organization/dimagi
             crunchbase_data:
               name: Dimagi
@@ -9317,7 +9300,6 @@ landscape:
             name: Healthvana
             homepage_url: https://healthvana.com/
             logo: healthvana.svg
-            twitter: https://twitter.com/healthvana
             crunchbase: https://www.crunchbase.com/organization/healthvana
             crunchbase_data:
               name: Healthvana
@@ -9443,7 +9425,6 @@ landscape:
             name: Boston Public Health Commission
             homepage_url: https://bphc.org/
             logo: boston_public_health_commission.svg
-            twitter: https://twitter.com/HealthyBoston
             crunchbase: https://www.crunchbase.com/organization/boston-public-health-commission
             crunchbase_data:
               name: Boston Public Health Commission
@@ -9603,7 +9584,6 @@ landscape:
               Sciences in Schleswig-Holstein
             homepage_url: https://fh-kiel.de/
             logo: fachhochschule_kiel.svg
-            twitter: https://twitter.com/fh_kiel
             crunchbase: https://www.crunchbase.com/organization/university-of-applied-sciences-kiel
             crunchbase_data:
               name: University of Applied Sciences Kiel
@@ -9683,7 +9663,6 @@ landscape:
             name: Interoperability Institute
             homepage_url: https://interoperabilityinstitute.org/
             logo: interoperability_institute.svg
-            twitter: https://twitter.com/TheInteropInst
             crunchbase: https://www.crunchbase.com/organization/interoperability-institute
             crunchbase_data:
               name: Interoperability Institute
@@ -9779,7 +9758,6 @@ landscape:
             name: North Carolina Department of Health and Human Services
             homepage_url: https://ncdhhs.gov/
             logo: north_carolina_department_of_health_and_human_services.svg
-            twitter: https://twitter.com/ncdhhs
             crunchbase: https://www.crunchbase.com/organization/nc-department-of-health-and-human-services
             crunchbase_data:
               name: NC Department of Health and Human Services
@@ -9872,7 +9850,6 @@ landscape:
             description: Where the UK’s Open communities meet and collaborate
             homepage_url: https://openuk.uk/
             logo: openuk.svg
-            twitter: https://twitter.com/openuk_uk
             crunchbase: https://www.crunchbase.com/organization/openuk
             crunchbase_data:
               name: OpenUK
@@ -9902,7 +9879,6 @@ landscape:
             name: Resolve to Save Lives
             homepage_url: https://resolvetosavelives.org/
             logo: resolve_to_save_lives.svg
-            twitter: https://twitter.com/ResolveTSL
             crunchbase: https://www.crunchbase.com/organization/resolve-to-save-lives
             crunchbase_data:
               name: Resolve to Save Lives
@@ -9954,7 +9930,6 @@ landscape:
               you within hours.
             homepage_url: https://usdigitalresponse.org/
             logo: us_digital_response.svg
-            twitter: https://twitter.com/USDResponse
             crunchbase: https://www.crunchbase.com/organization/u-s-digital-response
             crunchbase_data:
               name: U.S. Digital Response
@@ -9986,7 +9961,6 @@ landscape:
             name: University College London
             homepage_url: https://ucl.ac.uk/
             logo: university_college_london.svg
-            twitter: https://twitter.com/uclnews
             crunchbase: https://www.crunchbase.com/organization/university-college-london-u-of-london
             crunchbase_data:
               name: University College London (UCL)
@@ -10021,7 +9995,6 @@ landscape:
             name: University of Rochester Medical Center
             homepage_url: https://urmc.rochester.edu/
             logo: university_of_rochester_medical_center.svg
-            twitter: https://twitter.com/UofR
             crunchbase: https://www.crunchbase.com/organization/university-of-rochester-2
             crunchbase_data:
               name: University of Rochester

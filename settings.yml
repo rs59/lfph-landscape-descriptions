@@ -101,7 +101,7 @@ big_picture:
       - type: HorizontalCategory
         category: PHA-Deployed App
         rows: 6
-        width: 1100
+        width: 1250
         height: 200
         top: 0
         left: 0
@@ -113,6 +113,14 @@ big_picture:
         height: 170
         top: 220
         left: 0
+        color: rgb(4,81,49)
+        fit_width: true
+      - type: HorizontalCategory
+        category: Treatments and Therapies
+        width: 120
+        height: 170
+        top: 220
+        left: 1130
         color: rgb(4,81,49)
         fit_width: true
       - type: HorizontalCategory
@@ -149,7 +157,7 @@ big_picture:
         fit_width: true
       - type: HorizontalCategory
         category: LFPH Members
-        width: 640
+        width: 790
         height: 160
         top: 410
         left: 180
@@ -159,7 +167,7 @@ big_picture:
         width: 250
         height: 160
         top: 410
-        left: 850
+        left: 1000
         children:
           - type: text
             text: >-
